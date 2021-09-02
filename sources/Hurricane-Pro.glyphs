@@ -13,7 +13,8 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ,
 "/A.ss01/AE.ss01/B.ss01/C.ss01/D.ss01/Eth.ss01/E.ss01/F.ss01/G.ss01/H.ss01/I.ss01/J.ss01/K.ss01/L.ss01/LJ.ss01/Lj.ss01/M.ss01/N.ss01/NJ.ss01/Nj.ss01/O.ss01/Oslash.ss01/OE.ss01/P.ss01/Thorn.ss01/Q.ss01/R.ss01/S.ss01/T.ss01/U.ss01/V.ss01/W.ss01/X.ss01/Y.ss01/Z.ss01",
 "f/f_f/f_f_i/f_f_l/fi/fl/t_h.ss01/f.ss01 f/f.ss01/f_f.ss02/f_f_l.ss02/fl.ss02/t_h.ss02",
 Dimemas,
-"/hcircumflex/hcircumflex.ss01/hcircumflex.ss01/space"
+"/hcircumflex/hcircumflex.ss01/hcircumflex.ss01/space",
+"/period.ornm/ellipsis.ornm"
 );
 copyright = "Copyright 2016-2021 The Hurricane Project Authors (https://github.com/googlefonts/hurricane)";
 customParameters = (
@@ -73909,7 +73910,7 @@ width = 302;
 {
 color = 8;
 glyphname = period.ornm;
-lastChange = "2021-09-01 23:24:20 +0000";
+lastChange = "2021-09-02 00:18:26 +0000";
 layers = (
 {
 background = {
@@ -73917,10 +73918,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"227 -394 LINE",
-"247 -394 LINE",
-"247 784 LINE",
-"227 784 LINE"
+"150 -394 LINE",
+"170 -394 LINE",
+"170 784 LINE",
+"150 784 LINE"
 );
 }
 );
@@ -73930,14 +73931,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"247 -379 LINE",
-"247 799 LINE",
-"227 799 LINE",
-"227 -379 LINE"
+"170 -379 LINE",
+"170 799 LINE",
+"150 799 LINE",
+"150 -379 LINE"
 );
 }
 );
-width = 384;
+width = 320;
 }
 );
 note = period;
@@ -74397,7 +74398,7 @@ note = semicolon;
 {
 color = 8;
 glyphname = ellipsis.ornm;
-lastChange = "2021-09-01 23:00:50 +0000";
+lastChange = "2021-09-02 00:18:32 +0000";
 layers = (
 {
 background = {
@@ -74416,16 +74417,18 @@ name = period.ornm;
 components = (
 {
 name = period.ornm;
+transform = "{1, 0, 0, 1, 101, 0}";
 },
 {
 name = period.ornm;
+transform = "{1, 0, 0, 1, 51, 0}";
 },
 {
 name = period.ornm;
 }
 );
 layerId = "5B3E1226-E0D0-4C23-AF14-DEF1E2C801D3";
-width = 384;
+width = 421;
 }
 );
 },
