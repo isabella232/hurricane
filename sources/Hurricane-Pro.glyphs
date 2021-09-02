@@ -85,7 +85,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -109,7 +109,8 @@ code = "lookupflag IgnoreMarks;\012sub f f i by f_f_i;\012sub f f l by f_f_l;\01
 name = liga;
 },
 {
-code = "sub bullet from [A.ornm B.ornm C.ornm D.ornm E.ornm F.ornm G.ornm H.ornm I.ornm J.ornm K.ornm L.ornm M.ornm N.ornm O.ornm P.ornm Q.ornm R.ornm S.ornm T.ornm U.ornm V.ornm W.ornm X.ornm Y.ornm Z.ornm a.ornm b.ornm c.ornm d.ornm e.ornm f.ornm g.ornm h.ornm i.ornm j.ornm k.ornm l.ornm m.ornm n.ornm o.ornm p.ornm q.ornm r.ornm s.ornm t.ornm u.ornm v.ornm w.ornm x.ornm y.ornm z.ornm zero.ornm one.ornm two.ornm three.ornm four.ornm five.ornm six.ornm seven.ornm eight.ornm nine.ornm period.ornm comma.ornm colon.ornm semicolon.ornm ellipsis.ornm exclam.ornm exclamdown.ornm question.ornm questiondown.ornm periodcentered.ornm bullet.ornm asterisk.ornm numbersign.ornm slash.ornm backslash.ornm parenleft.ornm parenright.ornm braceleft.ornm braceright.ornm bracketleft.ornm bracketright.ornm hyphen.ornm endash.ornm emdash.ornm underscore.ornm quotedbl.ornm space.ornm CR.ornm equal.ornm greater.ornm less.ornm asciicircum.ornm at.ornm bar.ornm notdef.ornm];\012sub A by A.ornm;\012sub B by B.ornm;\012sub C by C.ornm;\012sub D by D.ornm;\012sub E by E.ornm;\012sub F by F.ornm;\012sub G by G.ornm;\012sub H by H.ornm;\012sub I by I.ornm;\012sub J by J.ornm;\012sub K by K.ornm;\012sub L by L.ornm;\012sub M by M.ornm;\012sub N by N.ornm;\012sub O by O.ornm;\012sub P by P.ornm;\012sub Q by Q.ornm;\012sub R by R.ornm;\012sub S by S.ornm;\012sub T by T.ornm;\012sub U by U.ornm;\012sub V by V.ornm;\012sub W by W.ornm;\012sub X by X.ornm;\012sub Y by Y.ornm;\012sub Z by Z.ornm;\012sub a by a.ornm;\012sub b by b.ornm;\012sub c by c.ornm;\012sub d by d.ornm;\012sub e by e.ornm;\012sub f by f.ornm;\012sub g by g.ornm;\012sub h by h.ornm;\012sub i by i.ornm;\012sub j by j.ornm;\012sub k by k.ornm;\012sub l by l.ornm;\012sub m by m.ornm;\012sub n by n.ornm;\012sub o by o.ornm;\012sub p by p.ornm;\012sub q by q.ornm;\012sub r by r.ornm;\012sub s by s.ornm;\012sub t by t.ornm;\012sub u by u.ornm;\012sub v by v.ornm;\012sub w by w.ornm;\012sub x by x.ornm;\012sub y by y.ornm;\012sub z by z.ornm;\012sub zero by zero.ornm;\012sub one by one.ornm;\012sub two by two.ornm;\012sub three by three.ornm;\012sub four by four.ornm;\012sub five by five.ornm;\012sub six by six.ornm;\012sub seven by seven.ornm;\012sub eight by eight.ornm;\012sub nine by nine.ornm;\012sub period by period.ornm;\012sub comma by comma.ornm;\012sub colon by colon.ornm;\012sub semicolon by semicolon.ornm;\012sub ellipsis by ellipsis.ornm;\012sub exclam by exclam.ornm;\012sub exclamdown by exclamdown.ornm;\012sub question by question.ornm;\012sub questiondown by questiondown.ornm;\012sub periodcentered by periodcentered.ornm;\012sub bullet by bullet.ornm;\012sub asterisk by asterisk.ornm;\012sub numbersign by numbersign.ornm;\012sub slash by slash.ornm;\012sub backslash by backslash.ornm;\012sub parenleft by parenleft.ornm;\012sub parenright by parenright.ornm;\012sub braceleft by braceleft.ornm;\012sub braceright by braceright.ornm;\012sub bracketleft by bracketleft.ornm;\012sub bracketright by bracketright.ornm;\012sub hyphen by hyphen.ornm;\012sub endash by endash.ornm;\012sub emdash by emdash.ornm;\012sub underscore by underscore.ornm;\012sub quotedbl by quotedbl.ornm;\012sub equal by equal.ornm;\012sub greater by greater.ornm;\012sub less by less.ornm;\012sub asciicircum by asciicircum.ornm;\012sub at by at.ornm;\012sub bar by bar.ornm;\012";
+automatic = 1;
+code = "sub bullet from [A.ornm B.ornm C.ornm D.ornm E.ornm F.ornm G.ornm H.ornm I.ornm J.ornm K.ornm L.ornm M.ornm N.ornm O.ornm P.ornm Q.ornm R.ornm S.ornm T.ornm U.ornm V.ornm W.ornm X.ornm Y.ornm Z.ornm a.ornm b.ornm c.ornm d.ornm e.ornm f.ornm g.ornm h.ornm i.ornm j.ornm k.ornm l.ornm m.ornm n.ornm o.ornm p.ornm q.ornm r.ornm s.ornm t.ornm u.ornm v.ornm w.ornm x.ornm y.ornm z.ornm zero.ornm one.ornm two.ornm three.ornm four.ornm five.ornm six.ornm seven.ornm eight.ornm nine.ornm period.ornm comma.ornm colon.ornm semicolon.ornm ellipsis.ornm exclam.ornm exclamdown.ornm question.ornm questiondown.ornm periodcentered.ornm bullet.ornm asterisk.ornm numbersign.ornm slash.ornm backslash.ornm parenleft.ornm parenright.ornm braceleft.ornm braceright.ornm bracketleft.ornm bracketright.ornm hyphen.ornm endash.ornm emdash.ornm underscore.ornm quotedbl.ornm space.ornm CR.ornm equal.ornm greater.ornm less.ornm asciicircum.ornm at.ornm bar.ornm notdef.ornm];\012sub A by A.ornm;\012sub B by B.ornm;\012sub C by C.ornm;\012sub D by D.ornm;\012sub E by E.ornm;\012sub F by F.ornm;\012sub G by G.ornm;\012sub H by H.ornm;\012sub I by I.ornm;\012sub J by J.ornm;\012sub K by K.ornm;\012sub L by L.ornm;\012sub M by M.ornm;\012sub N by N.ornm;\012sub O by O.ornm;\012sub P by P.ornm;\012sub Q by Q.ornm;\012sub R by R.ornm;\012sub S by S.ornm;\012sub T by T.ornm;\012sub U by U.ornm;\012sub V by V.ornm;\012sub W by W.ornm;\012sub X by X.ornm;\012sub Y by Y.ornm;\012sub Z by Z.ornm;\012sub a by a.ornm;\012sub b by b.ornm;\012sub c by c.ornm;\012sub d by d.ornm;\012sub e by e.ornm;\012sub f by f.ornm;\012sub g by g.ornm;\012sub h by h.ornm;\012sub i by i.ornm;\012sub j by j.ornm;\012sub k by k.ornm;\012sub l by l.ornm;\012sub m by m.ornm;\012sub n by n.ornm;\012sub o by o.ornm;\012sub p by p.ornm;\012sub q by q.ornm;\012sub r by r.ornm;\012sub s by s.ornm;\012sub t by t.ornm;\012sub u by u.ornm;\012sub v by v.ornm;\012sub w by w.ornm;\012sub x by x.ornm;\012sub y by y.ornm;\012sub z by z.ornm;\012sub zero by zero.ornm;\012sub one by one.ornm;\012sub two by two.ornm;\012sub three by three.ornm;\012sub four by four.ornm;\012sub five by five.ornm;\012sub six by six.ornm;\012sub seven by seven.ornm;\012sub eight by eight.ornm;\012sub nine by nine.ornm;\012sub period by period.ornm;\012sub comma by comma.ornm;\012sub colon by colon.ornm;\012sub semicolon by semicolon.ornm;\012sub ellipsis by ellipsis.ornm;\012sub exclam by exclam.ornm;\012sub exclamdown by exclamdown.ornm;\012sub question by question.ornm;\012sub questiondown by questiondown.ornm;\012sub periodcentered by periodcentered.ornm;\012sub bullet by bullet.ornm;\012sub asterisk by asterisk.ornm;\012sub numbersign by numbersign.ornm;\012sub slash by slash.ornm;\012sub backslash by backslash.ornm;\012sub parenleft by parenleft.ornm;\012sub parenright by parenright.ornm;\012sub braceleft by braceleft.ornm;\012sub braceright by braceright.ornm;\012sub bracketleft by bracketleft.ornm;\012sub bracketright by bracketright.ornm;\012sub hyphen by hyphen.ornm;\012sub endash by endash.ornm;\012sub emdash by emdash.ornm;\012sub underscore by underscore.ornm;\012sub quotedbl by quotedbl.ornm;\012sub space by space.ornm;\012sub CR by CR.ornm;\012sub equal by equal.ornm;\012sub greater by greater.ornm;\012sub less by less.ornm;\012sub asciicircum by asciicircum.ornm;\012sub at by at.ornm;\012sub bar by bar.ornm;\012";
 name = ornm;
 },
 {
@@ -151,22 +152,23 @@ name = ss06;
 fontMaster = (
 {
 alignmentZones = (
+"{610, 15}",
 "{580, 15}",
 "{300, 15}",
 "{0, -15}",
 "{-365, -15}"
 );
 ascender = 580;
-capHeight = 575;
+capHeight = 610;
 custom = "Hurricane Pro New";
 customParameters = (
 {
 name = typoAscender;
-value = 815;
+value = 950;
 },
 {
 name = typoDescender;
-value = -562;
+value = -430;
 },
 {
 name = typoLineGap;
@@ -174,11 +176,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 815;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -562;
+value = -430;
 },
 {
 name = hheaLineGap;
