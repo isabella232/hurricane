@@ -4,7 +4,7 @@ A storm has been brewing. It’s Hurricane. Flair and excitement abounds with th
 
 There are three regular styles incorporated into the PRO version of the this font, plus graphics to add an extra breeze to your work. The base font is straight forward with more Roman capital forms. The Script stylistic set swaps the caps out for the more flourished uppercase.
 
-![Sample Image](Documentation/Hurricane.png)
+![Sample Image](Documentation/image1.png)
 
 ## Building the Fonts
 
